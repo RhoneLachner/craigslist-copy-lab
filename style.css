@@ -4,7 +4,7 @@ main {
     margin: 0%;
     padding: 0%;
     display:grid;
-    grid-template-columns: 25% 80% 15% ;
+    grid-template-columns: 100px 550px 250px ;
 }
 div {
     margin: 20px;
@@ -57,13 +57,19 @@ header {
 
 .bold-middle {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
-.mid-mids1 { 
+
+.left-middle { 
     display: flex;
     flex-direction: column;
 }
-.mid-mids2 {
+
+.mid-middle {
+    display: flex;
+    flex-direction: column;
+}
+.right-middle {
     display: flex;
     flex-direction: column;
 }
@@ -73,4 +79,5 @@ header {
     display: grid;
     background-color: white;
     grid-template-rows: 45px 25px 25px ;
+    justify-content: right;
 }
