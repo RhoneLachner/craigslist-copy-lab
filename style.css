@@ -4,7 +4,7 @@ main {
     margin: 0%;
     padding: 0%;
     display:grid;
-    grid-template-columns: 25% 60% 15% ;
+    grid-template-columns: 25% 80% 15% ;
 }
 div {
     margin: 20px;
@@ -16,16 +16,30 @@ border-color: black;}
 
 .portland {
     display: grid;
-    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% ;
+    ;
     
 }
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
+}
+.county {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    background-size: 0%;
+}
 header {
     color: black;
     font-weight: bold;
     background-color: lightgray;
     grid-template: rows;
+    border: 2px;
+    border-color: black;
 }
+
 .left {
     display: grid;
     color: blue;
