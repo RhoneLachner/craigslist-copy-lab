@@ -1,0 +1,62 @@
+main {
+    height: 100%;
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+    display:grid;
+    grid-template-columns: 25% 60% 15% ;
+}
+div {
+    margin: 20px;
+}
+
+h4 {background-color: whitesmoke;
+border: 3px;
+border-color: black;}
+
+.portland {
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% ;
+    
+}
+
+header {
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;
+    grid-template: rows;
+}
+.left {
+    display: grid;
+    color: blue;
+    background-color: white;
+}
+ .middle {
+     color: blue;
+    display: grid;
+    background-color: white
+    ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bold-middle {
+    display: flex;
+    flex-direction: column;
+}
+.mid-mids1 { 
+    display: flex;
+    flex-direction: column;
+}
+.mid-mids2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    color: blue;
+    display: grid;
+    background-color: white;
+    grid-template-rows: 45px 25px 25px ;
+}
